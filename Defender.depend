@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1711066996 source:d:\progra 2\sem 8(evaluacion)\defender\main.cpp
+	<iostream>
+	"Cliente.h"
+	"Fecha.h"
+	"Prestamo.h"
+	"Pago.h"
+	<stdlib.h>
+
+1711039346 source:d:\progra 2\sem 8(evaluacion)\defender\src\cliente.cpp
+	"Cliente.h"
+
+1711039426 d:\progra 2\sem 8(evaluacion)\defender\include\cliente.h
+	<iostream>
+
+1711039452 source:d:\progra 2\sem 8(evaluacion)\defender\src\fecha.cpp
+	"Fecha.h"
+	<iostream>
+
+1711039196 d:\progra 2\sem 8(evaluacion)\defender\include\fecha.h
+
+1711039196 source:d:\progra 2\sem 8(evaluacion)\defender\src\pago.cpp
+	"Pago.h"
+
+1711039298 d:\progra 2\sem 8(evaluacion)\defender\include\pago.h
+	"Fecha.h"
+
+1711043950 source:d:\progra 2\sem 8(evaluacion)\defender\src\prestamo.cpp
+	"Prestamo.h"
+
+1711040138 d:\progra 2\sem 8(evaluacion)\defender\include\prestamo.h
+	"Fecha.h"
+	"Pago.h"
+	"Cliente.h"
+
