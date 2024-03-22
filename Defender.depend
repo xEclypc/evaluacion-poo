@@ -33,3 +33,37 @@
 	"Pago.h"
 	"Cliente.h"
 
+1711067576 source:c:\users\hp notebook\onedrive\escritorio\proyectos c++\pseudocodigo\evaluacion laboratorio\defender\main.cpp
+	<iostream>
+	"Cliente.h"
+	"Fecha.h"
+	"Prestamo.h"
+	"Pago.h"
+	<stdlib.h>
+
+1711039426 c:\users\hp notebook\onedrive\escritorio\proyectos c++\pseudocodigo\evaluacion laboratorio\defender\include\cliente.h
+	<iostream>
+
+1711039196 c:\users\hp notebook\onedrive\escritorio\proyectos c++\pseudocodigo\evaluacion laboratorio\defender\include\fecha.h
+
+1711040138 c:\users\hp notebook\onedrive\escritorio\proyectos c++\pseudocodigo\evaluacion laboratorio\defender\include\prestamo.h
+	"Fecha.h"
+	"Pago.h"
+	"Cliente.h"
+
+1711039298 c:\users\hp notebook\onedrive\escritorio\proyectos c++\pseudocodigo\evaluacion laboratorio\defender\include\pago.h
+	"Fecha.h"
+
+1711039346 source:c:\users\hp notebook\onedrive\escritorio\proyectos c++\pseudocodigo\evaluacion laboratorio\defender\src\cliente.cpp
+	"Cliente.h"
+
+1711039452 source:c:\users\hp notebook\onedrive\escritorio\proyectos c++\pseudocodigo\evaluacion laboratorio\defender\src\fecha.cpp
+	"Fecha.h"
+	<iostream>
+
+1711039196 source:c:\users\hp notebook\onedrive\escritorio\proyectos c++\pseudocodigo\evaluacion laboratorio\defender\src\pago.cpp
+	"Pago.h"
+
+1711043950 source:c:\users\hp notebook\onedrive\escritorio\proyectos c++\pseudocodigo\evaluacion laboratorio\defender\src\prestamo.cpp
+	"Prestamo.h"
+

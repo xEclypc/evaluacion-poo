@@ -103,12 +103,12 @@ void registrarPago(Prestamo *prestamo)
     Fecha* fechaPago;
     float montoPago;
     Pago* pago;
-    cout << "Ingrese la fecha de pago: ";
-    cout << "DIA: ";
+    cout << "Ingrese la fecha de pago: \n";
+    cout << "DIA: \n";
     cin >> d;
-    cout << "MES: ";
+    cout << "MES: \n";
     cin >> m;
-    cout << "AÑO: ";
+    cout << "AÑO: \n";
     cin >> a;
     cout << "Ingrese el monto a pagar: ";
     cin >> montoPago;
@@ -124,21 +124,20 @@ void verDetalles(Prestamo *prestamo)
     cout << prestamo->getCliente()->getNombre() << " " <<  prestamo->getCliente()->getApellido() << "\n";
     cout << "FECHA APROBACION: ";
     prestamo->getFechaAprobacion()->mostrarFecha();
-    cout << "MONTO APROBADO: ";
-    prestamo->getMontoAprobado();
-    cout << "\n";
-    cout << "SALDO PENDIENTE: ";
+    cout << "MONTO APROBADO: " << prestamo->getMontoAprobado();
+    cout << "\nSALDO PENDIENTE: ";
     cout << prestamo->getSaldoPendiente();
     if(prestamo->getContPagos() == 0)
     {
-        cout << "\n  Pagos no registrados";
+        cout << "\nPagos no registrados";
     }else{
         Pago** lista = prestamo->getLstPago();
         for (int i = 0;i < prestamo->getContPagos();i++)
 
         {
-            cout << (i + 1) << "\t";
+            cout << "\nFECHA PAGO: ";
             lista[i]->getFechaPago()->mostrarFecha();
+            cout << "MONTO: ";
             cout << lista[i]->getMontoPago() << endl;
         }
 
